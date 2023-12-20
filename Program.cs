@@ -58,6 +58,8 @@ namespace InterviewTest
 
             IReturn rga = new Return("TruckAccessoriesReturn123", order);
             rga.AddProduct(order.Products.First());
+            //process the return for the customer (bug #1)
+            customer.CreateReturn(rga);
 
             ConsoleWriteLineResults(customer);
         }

@@ -42,10 +42,10 @@ namespace InterviewTest.Customers
         {
             //initialize
             float totalSales = 0;
-            //nested for loop
+            //nested for loop to iterate between each order/product
             foreach (IOrder order in GetOrders()){
                 foreach(OrderedProduct orderedProduct in order.Products){
-                    //adds selling price of each prod to total
+                    //add selling price of each prod to total sales
                     totalSales += orderedProduct.Product.GetSellingPrice();
                 }
             }
@@ -58,6 +58,7 @@ namespace InterviewTest.Customers
             float totalReturns = 0;
             foreach (Return returns in GetReturns()){
                 foreach(ReturnedProduct returnedProduct in returns.ReturnedProducts){
+                    //add selling price of each prod to total returns
                     totalReturns += returnedProduct.OrderProduct.Product.GetSellingPrice();
                 }
             }
