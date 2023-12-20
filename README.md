@@ -1,6 +1,5 @@
-# Meyer-Distributing-Exam-Junior
-Coding Challenge for the Junior Software Engineer role at Meyer Distributing! /n
-To run on Visual Studio Code: Enter "dotnet run" in command prompt.
+# **Meyer-Distributing-Exam-Junior**
+Coding Challenge for the Junior Software Engineer role at Meyer Distributing! To run on Visual Studio Code, enter "_dotnet run_" in command prompt.
 
 ## Implementations:
 - [x] Implement TotalSales Function
@@ -11,6 +10,7 @@ To run on Visual Studio Code: Enter "dotnet run" in command prompt.
 - [ ] Meyer Truck Equipment Correction
 - [ ] Ruxer Ford Lincoln Inc. Correction
 
-## Bonus(?)
+## Bonus
+- [ ] ??
 
-Expected Output:
+## Expected Output:
