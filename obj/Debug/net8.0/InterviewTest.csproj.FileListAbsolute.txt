@@ -12,3 +12,4 @@
 /Users/aminaopio/Desktop/exam/InterviewTest/obj/Debug/net8.0/InterviewTest.pdb
 /Users/aminaopio/Desktop/exam/InterviewTest/obj/Debug/net8.0/InterviewTest.genruntimeconfig.cache
 /Users/aminaopio/Desktop/exam/InterviewTest/obj/Debug/net8.0/ref/InterviewTest.dll
+/Users/aminaopio/Desktop/exam/InterviewTest/obj/Debug/net8.0/InterviewTest.sourcelink.json

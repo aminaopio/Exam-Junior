@@ -54,7 +54,14 @@ namespace InterviewTest.Customers
 
         public float GetTotalReturns()
         {
-            throw new NotImplementedException();
+            //initialize
+            float totalReturns = 0;
+            foreach (Return returns in GetReturns()){
+                foreach(ReturnedProduct returnedProduct in returns.ReturnedProducts){
+                    totalReturns += returnedProduct.OrderProduct.Product.GetSellingPrice();
+                }
+            }
+            return totalReturns;
         }
 
         public float GetTotalProfit()
