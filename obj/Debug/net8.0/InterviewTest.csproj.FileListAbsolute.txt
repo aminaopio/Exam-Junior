@@ -1,0 +1,14 @@
+/Users/aminaopio/Desktop/exam/InterviewTest/bin/Debug/net8.0/InterviewTest
+/Users/aminaopio/Desktop/exam/InterviewTest/bin/Debug/net8.0/InterviewTest.deps.json
+/Users/aminaopio/Desktop/exam/InterviewTest/bin/Debug/net8.0/InterviewTest.runtimeconfig.json
+/Users/aminaopio/Desktop/exam/InterviewTest/bin/Debug/net8.0/InterviewTest.dll
+/Users/aminaopio/Desktop/exam/InterviewTest/bin/Debug/net8.0/InterviewTest.pdb
+/Users/aminaopio/Desktop/exam/InterviewTest/obj/Debug/net8.0/InterviewTest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aminaopio/Desktop/exam/InterviewTest/obj/Debug/net8.0/InterviewTest.AssemblyInfoInputs.cache
+/Users/aminaopio/Desktop/exam/InterviewTest/obj/Debug/net8.0/InterviewTest.AssemblyInfo.cs
+/Users/aminaopio/Desktop/exam/InterviewTest/obj/Debug/net8.0/InterviewTest.csproj.CoreCompileInputs.cache
+/Users/aminaopio/Desktop/exam/InterviewTest/obj/Debug/net8.0/InterviewTest.dll
+/Users/aminaopio/Desktop/exam/InterviewTest/obj/Debug/net8.0/refint/InterviewTest.dll
+/Users/aminaopio/Desktop/exam/InterviewTest/obj/Debug/net8.0/InterviewTest.pdb
+/Users/aminaopio/Desktop/exam/InterviewTest/obj/Debug/net8.0/InterviewTest.genruntimeconfig.cache
+/Users/aminaopio/Desktop/exam/InterviewTest/obj/Debug/net8.0/ref/InterviewTest.dll
