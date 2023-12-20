@@ -8,6 +8,7 @@ namespace InterviewTest.Orders
         ICustomer Customer { get; }
         string OrderNumber { get; }
         List<OrderedProduct> Products { get; }
+        public DateTime purchaseTime { get; }
 
         void AddProduct(Products.IProduct product);
     }

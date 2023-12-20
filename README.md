@@ -8,4 +8,4 @@ Coding Challenge for the Junior Software Engineer role at Meyer Distributing!
 
 ##Bug Fixes:
 - [x] Meyer Truck Equipment Correction
-- [ ] Ruxer Ford Lincoln Inc. Correction
+- [x] Ruxer Ford Lincoln Inc. Correction

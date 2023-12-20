@@ -8,11 +8,12 @@ namespace InterviewTest.Orders
     {
         public Order(string orderNumber, ICustomer customer)
         {
+            purchaseTime = DateTime.Now;
             OrderNumber = orderNumber;
             Customer = customer;
             Products = new List<OrderedProduct>();
         }
-
+        public DateTime purchaseTime { get; }
         public string OrderNumber { get; }
         public ICustomer Customer { get; }
         public List<OrderedProduct> Products { get; }

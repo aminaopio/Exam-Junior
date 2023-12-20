@@ -87,6 +87,9 @@ namespace InterviewTest
 
         private static ICustomer GetCarDealershipCustomer()
         {
+            //first initialize the repo (bug #2)
+            OrderRepository orderRepo = new OrderRepository();
+            ReturnRepository returnRepo = new ReturnRepository();
             return new CarDealershipCustomer(orderRepo, returnRepo);
         }
 
@@ -100,7 +103,10 @@ namespace InterviewTest
 
             Console.WriteLine($"Total Profit: {customer.GetTotalProfit().ToString("c")}");
 
+            var orders = customer.GetOrders();
+
             Console.WriteLine();
         }
+        
     }
 }
