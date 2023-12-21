@@ -1,5 +1,5 @@
 # **Meyer-Distributing-Exam-Junior**
-Coding Challenge for the Junior Software Engineer role at Meyer Distributing! To run on Visual Studio Code, enter "_dotnet run_" in command prompt.
+Coding Challenge for the Junior Software Engineer role at Meyer Distributing! To run on Visual Studio Code, enter _`dotnet run`_ in the terminal, or run with/without debugging.
 
 ## Implementations:
 - [x] Implement Sales Function
