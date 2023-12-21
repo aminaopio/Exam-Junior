@@ -5,7 +5,7 @@ Coding Challenge for the Junior Software Engineer role at Meyer Distributing! To
 - [x] Implement Sales Function
 - [x] Implement Returns Function
 - [x] Implement Profit Function
-- [ ] Record when item was purchased
+- [-] Record when item was purchased
 
 ## Bug Fixes:
 - [x] Meyer Truck Equipment Correction

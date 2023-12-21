@@ -10,7 +10,6 @@ namespace InterviewTest.Customers
         {
 
         }
-
         public override string GetName()
         {
             return "Meyer Truck Equipment";

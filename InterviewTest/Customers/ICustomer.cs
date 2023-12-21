@@ -14,5 +14,6 @@ namespace InterviewTest.Customers
         float GetTotalSales();
         float GetTotalReturns();
         float GetTotalProfit();
+        float GetCurrentTime();
     }
 }

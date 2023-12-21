@@ -9,8 +9,8 @@ namespace InterviewTest
 {
     public class Program
     {
-        private static readonly OrderRepository orderRepo = new OrderRepository();
-        private static readonly ReturnRepository returnRepo = new ReturnRepository();
+        private static OrderRepository orderRepo = new OrderRepository();
+        private static ReturnRepository returnRepo = new ReturnRepository();
 
         static void Main(string[] args)
         {
@@ -87,7 +87,7 @@ namespace InterviewTest
 
         private static ICustomer GetCarDealershipCustomer()
         {
-            //first initialize the repo (bug #2)
+            //first initialize the repos (bug #2)
             OrderRepository orderRepo = new OrderRepository();
             ReturnRepository returnRepo = new ReturnRepository();
             return new CarDealershipCustomer(orderRepo, returnRepo);
@@ -103,7 +103,9 @@ namespace InterviewTest
 
             Console.WriteLine($"Total Profit: {customer.GetTotalProfit().ToString("c")}");
 
-            var orders = customer.GetOrders();
+            //tried to implement method for this in customer base class
+            //commented out due to errors
+            // Console.WriteLine($"Item Purchase Date/Time: {customer.GetCurrentTime().ToString("c")}");
 
             Console.WriteLine();
         }

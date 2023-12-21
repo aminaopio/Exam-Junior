@@ -8,7 +8,7 @@ namespace InterviewTest.Orders
     {
         public Order(string orderNumber, ICustomer customer)
         {
-            purchaseTime = DateTime.Now;
+            purchaseTime = DateTime.Today; //returns todays date (not sure how else to implement this)
             OrderNumber = orderNumber;
             Customer = customer;
             Products = new List<OrderedProduct>();

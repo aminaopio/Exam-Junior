@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using InterviewTest.Orders;
 using InterviewTest.Returns;
+using InterviewTest.Customers;
 
 namespace InterviewTest.Customers
 {
@@ -69,6 +70,21 @@ namespace InterviewTest.Customers
         {
             //subtract returns from sales
             return GetTotalSales() - GetTotalReturns();
+        }
+
+        //attempted method for recording purchase date/time, could not resolve errors
+        public float GetCurrentTime(){
+            throw new NotImplementedException();
+
+        //     foreach (IOrder order in orders)
+        //     {
+        //         foreach (OrderedProduct orderedProduct in order.Products)
+        //         {
+        //              ...
+        //             }
+        //             fullList[productKey].Add(order.purchaseTime);
+        //         }
+        //     }
         }
     }
 }
